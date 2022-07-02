@@ -16,7 +16,7 @@ navBtns.forEach((btn) => {
 });
 
 window.onclick = (event) => {
-  if (event.target.matches(".nav-link")) {
+  if (!event.target.matches(".nav-link")) {
     let dropdowns = document.getElementsByClassName("dropdown-content");
     let i;
     for (i = 0; i < dropdowns.length; i++) {

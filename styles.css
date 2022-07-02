@@ -144,13 +144,8 @@ h5 {
 }
 
 .nav-link {
-  background: none;
-  border: 0;
   cursor: pointer;
   padding-block: auto;
-}
-
-.nav-link > a {
   color: hsl(0, 0%, 100%);
   font-weight: 400;
   font-size: 1rem;
@@ -158,7 +153,8 @@ h5 {
   font-family: "Ubuntu", sans-serif;
 }
 
-.nav-link > a:hover {
+
+.nav-link:hover {
   text-decoration: underline;
 }
 
@@ -520,14 +516,14 @@ footer .container {
   .nav-link {
     width: 100%;
     margin-inline: auto;
-    padding-block: 20px;
-  }
-
-  .nav-link > a {
     color: hsl(208, 49%, 24%);
     font-weight: 700;
     font-size: 1.2rem;
     font-family: "Overpass", sans-serif;
+  }
+
+  .dropdown {
+    margin-block: 20px;
   }
 
   .dropdown-content {
